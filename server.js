@@ -7,6 +7,6 @@ const server = http.createServer((req, res) => {
   res.end('Hello, World!\n');
 });
 
-server.listen(port, '0.0.0.0', () => {
+server.listen(port, '35.232.91.151', () => {
   console.log(`Servidor rodando em http://0.0.0.0:${port}`);
 });
